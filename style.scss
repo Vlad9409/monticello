@@ -1,0 +1,601 @@
+html,
+body,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  background: url(/image/backgroun.png) no-repeat center;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.header-title__logo {
+  width: calc((100% + 30px) / 12 * 3);
+}
+
+.header-title__burger {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.burger-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 68px;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+.burger-text {
+  color: #fff;
+}
+
+.header-title__menu {
+  font-size: 14px;
+  line-height: 22px;
+  width: calc((100% + 30px) / 12 * 7);
+  color: #ffffff;
+  font-family: "Gotham";
+}
+
+.icon {
+  padding-right: 20px;
+  width: calc((100% + 30px) / 12 * 2);
+}
+
+.header-blok {
+  width: 100%;
+  margin-top: 270px;
+  text-align: center;
+
+  .header-text {
+    font-size: 80px;
+    letter-spacing: 4px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Gotham";
+    text-align: center;
+  }
+
+  .header-subtitle {
+    font-size: 18px;
+    letter-spacing: 5px;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: "Gotham";
+    text-align: center;
+  }
+}
+.header-scroll {
+  text-align: center;
+  padding-top: 232px;
+  padding-bottom: 50px;
+  display: block;
+  text-decoration: none;
+}
+
+.project {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.project-content {
+  margin-top: 140px;
+}
+.project-title {
+  font-size: 44px;
+  line-height: 22px;
+  color: #2c4058;
+  font-weight: bold;
+  font-family: "Gotham";
+  text-align: center;
+}
+
+.card-town {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.project-block {
+  margin-top: 100px;
+  max-width: 585px;
+  width: 100%;
+  height: 470px;
+  background-color: #55b7ff;
+  box-sizing: border-box;
+}
+.project-block {
+  margin-left: -210px;
+}
+.profect-town {
+  padding-top: 170px;
+  margin-left: -370px;
+}
+
+.card-text {
+  max-width: 470px;
+  box-sizing: border-box;
+  padding-top: 230px;
+  padding-left: 70px;
+
+  &__title {
+    font-size: 16px;
+    line-height: 1px;
+    color: #2c4058;
+    font-family: "Gotham";
+  }
+
+  &__trade {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 16px;
+    color: #2c4058;
+    font-family: "Gotham";
+  }
+  &__contecst {
+    font-size: 14px;
+    line-height: 30px;
+    color: #4b5562;
+    font-weight: 400;
+    font-family: "Open Sans";
+  }
+
+  &__location {
+    padding-top: 60px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #2c4058;
+    font-family: "Font Awesome";
+  }
+}
+
+.card-text__link {
+  display: block;
+  text-decoration: none;
+  padding-top: 38px;
+  max-width: 190px;
+  width: 100%;
+  border: 2px solid #2c4058;
+  background: white;
+
+  letter-spacing: 1px;
+  color: #4b5562;
+  font: normal 400 14px/22px "Gotham", sans-serif;
+  text-align: center;
+  padding: 10px 0;
+}
+// second block
+
+.card-townnext {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.position {
+  width: 12px;
+  height: 12px;
+}
+
+.card-internation {
+  max-width: 470px;
+  box-sizing: border-box;
+  padding-top: 230px;
+  padding-right: 70px;
+}
+.card-internation__title {
+  font-size: 16px;
+  line-height: 1px;
+  color: #2c4058;
+  font-family: "Gotham";
+}
+.card-internation__trade {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 16px;
+  color: #2c4058;
+  font-family: "Gotham";
+}
+.card-internation__contecst {
+  font-size: 14px;
+  line-height: 30px;
+  color: #4b5562;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.card-internation__link {
+  display: block;
+  text-decoration: none;
+  padding-top: 38px;
+  max-width: 190px;
+  width: 100%;
+  border: 1px solid #2c4058;
+  background: white;
+
+  letter-spacing: 1px;
+  color: #4b5562;
+  font: normal 400 14px/22px "Gotham", sans-serif;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.card-internation__location {
+  padding-top: 60px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #2c4058;
+  font-family: "Font Awesome";
+}
+
+.card-block {
+  margin-top: 100px;
+  margin-left: -400px;
+  max-width: 585px;
+  z-index: 5;
+  width: 100%;
+  height: 470px;
+  background-color: #7e5aff;
+  box-sizing: border-box;
+}
+
+.card-block {
+  margin-right: -215px;
+}
+
+.card-image {
+  padding-right: 40px;
+  padding-top: 170px;
+  margin-left: 35px;
+  z-index: 10;
+}
+/*section 3*/
+.blok3 {
+  background: rgb(60, 127, 212);
+  background: linear-gradient(
+    62deg,
+    rgba(60, 127, 212, 1) 0%,
+    rgba(36, 204, 250, 1) 100%
+  );
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.blok3-container {
+  margin-top: 140px;
+}
+
+.block3-text {
+  padding-top: 140px;
+  font-size: 44px;
+  line-height: 22px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Gotham";
+  text-align: center;
+}
+
+.block3-title__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  height: 516px;
+  padding-bottom: 208px;
+}
+
+.image {
+  height: 240px;
+  z-index: 15;
+}
+
+.block3-title__card {
+  max-width: 370px;
+  width: 100%;
+  background-color: #fff;
+  margin-right: 15px;
+  padding-left: 15px;
+}
+
+.block3-title__text {
+  max-width: 318px;
+  width: 100%;
+  margin: 0 auto;
+}
+.blcok3-sometitle {
+  font-size: 22px;
+  line-height: 34px;
+  color: #2c4058;
+  font-weight: bold;
+  font-family: "Gotham";
+  margin: 30px 0 0 0;
+}
+
+.blcok3-sometext {
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+  color: #4b5562;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.blcok3-avatar {
+  display: flex;
+  flex-direction: row;
+}
+.avat {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+.block3-name {
+  margin: 48px 0 0 0;
+  padding-left: 20px;
+  padding-bottom: 0;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2c4058;
+  font-family: "Gotham";
+}
+
+.block3-date {
+  padding-left: 20px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #55b7ff;
+  font-family: "Gotham";
+}
+
+.block4 {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.block4-container {
+  margin-top: 140px;
+}
+
+.galerry-text {
+  font-size: 44px;
+  line-height: 22px;
+  color: #2c4058;
+  font-weight: 500;
+  font-family: "Gotham";
+  text-align: center;
+}
+
+.galerry-image {
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  max-width: 1170px;
+  width: 100%;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+.gallery-image__one {
+  max-width: 578px;
+  height: 436px;
+  padding-right: 3px;
+}
+
+.galerry-image__two {
+  max-width: 285px;
+  height: 214px;
+  padding: 0 3px 3px 3px;
+}
+
+.galerry-image__link {
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 140px;
+  text-decoration: none;
+  padding-top: 38px;
+  max-width: 190px;
+  width: 100%;
+  border: 1px solid #2c4058;
+  background: white;
+
+  letter-spacing: 1px;
+  color: #4b5562;
+  font: normal 400 14px/22px "Gotham", sans-serif;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.gallery-image__cont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.block5 {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#map {
+  height: 700px;
+}
+
+footer {
+  margin: 0 auto;
+  background-image: url(/image/footer.png);
+  max-width: 1600px;
+}
+
+.context-box__modal {
+  position: relative;
+  margin: -120px auto 0 auto;
+  top: -180px;
+  max-width: 770px;
+  width: 100%;
+  height: 450px;
+  background-color: #fff;
+  z-index: 40;
+}
+
+.context-box__title {
+  margin: 0 auto;
+  max-width: 630px;
+  width: 100%;
+}
+
+.context-box__text {
+  padding-top: 90px;
+  font-size: 44px;
+  line-height: 22px;
+  color: #2c4058;
+  font-weight: 500;
+  font-family: "Gotham";
+  text-align: center;
+  border-top: 2 solid #000;
+}
+
+.content-box__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 630px;
+  width: 100%;
+}
+
+.content-box__texts {
+  max-width: 300px;
+  width: 100%;
+}
+
+.street {
+  font-size: 18px;
+  line-height: 34px;
+  color: #2c4058;
+  font-family: "Font Awesome";
+}
+
+.content-box__input {
+  max-width: 300px;
+  width: 100%;
+  padding-top: 25px;
+}
+
+.content-box__mollie {
+  padding: 0;
+  max-width: 300px;
+  width: 100%;
+  padding-bottom: 15px;
+  border: none;
+  border-bottom: 1px solid #000;
+  background-color: transparent;
+  color: inherit;
+  outline: none;
+}
+
+.content-box__mollie::before {
+  content: "";
+  max-width: 300px;
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+
+.content-box__email {
+  margin-top: 40px;
+  max-width: 300px;
+  border: none;
+  border-bottom: 1px solid #a5aab0;
+  background-color: transparent;
+  color: inherit;
+  outline: none;
+  width: 100%;
+  padding-bottom: 15px;
+  color: #a5aab0;
+}
+
+.content-box__button {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 140px;
+  text-decoration: none;
+  padding-top: 30px;
+  max-width: 138px;
+  width: 100%;
+  border: 1px solid #2c4058;
+  background: white;
+
+  letter-spacing: 1px;
+  color: #4b5562;
+  font: normal 400 14px/22px "Gotham", sans-serif;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.context-box {
+  margin: 0 auto;
+  max-width: 770px;
+  width: 100%;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &__logo {
+    margin-top: -120px;
+  }
+
+  &__cooperat {
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: "Gotham";
+  }
+}
+
+.context-social {
+  margin-top: -120px;
+}
+.icon-footer {
+  padding-right: 20px;
+}
+
+.position-color {
+  width: 12px;
+  height: 12px;
+}
+
+.heart {
+  width: 10px;
+  height: 10px;
+}
+
+.icon-heart-simple-shape-silhouette:before {
+  content: "\e904";
+}

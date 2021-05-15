@@ -1,0 +1,16 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40">
+	<title>HEADER</title>
+	<defs>
+		<image  width="40" height="40" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAAXNSR0IB2cksfwAAAK5QTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////LYr0KgAAADp0Uk5TAAEnVHmTpq4UX5+UZT0hDQQ8aadkIKNmDgNqmSUkB36ACnx2a32aPqQPZxUfHpVVzK8F/3c/daJjoKexHrkAAAF6SURBVHicjZV9f4IgEMdPU1PJ0DQxXU9mua21crVV7/+NDVx9poAP9wfg+YWfHMcJUDVFHWi6MRwaujZQFWgy07LRyBlj18Vjb4Rsy5RieOIH06pjGvgTLHJeSCJhLgkdzjWLkxeZzDyJZ9XnxXK1ln/3erVcVNZLN66cA3A36f+a2baRo+Q2ew6dXYPuQ32X/w1wOG/j6I5e38o+fm/nAEgpvveF+PEW+XvaWkEXBxBYNA/sj27wYCugfnZzAEiFYw9lqj0AjT92qTkaoGk3RlMOgcEF50RYS051Lzag+Kq7yPkCcDmTutctoODzgZICx0BempECx6QlmyECxzbTLzye1j/gKuoD6ipNikM3x5Kid5qBKQaIt8goi8tEjAZnJC677ssVPkpQnrRf1+T7OczStgKQZpXxT1tJqbxbrPoVKTovS6Q7micZr5VfiVBeMbnm4uQoNm61K364GbH8LEzrjgLvUewDdG8o9swU9ajpflH4unbkfh+/+jMaR2RB5m4AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="HEADER">
+		<g id="Heading">
+			<g id="Arrow">
+				<use id="" href="#img1" x="0" y="0" />
+			</g>
+		</g>
+	</g>
+</svg>
